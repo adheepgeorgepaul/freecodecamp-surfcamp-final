@@ -1,0 +1,257 @@
+{
+  "vim.handleKeys": {
+    "<C-o>": false,
+    "<C-i>": false,
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["escape"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["s"],
+      "after": ["<nop>"]
+    }
+  ],
+  "vim.useSystemClipboard": true,
+  "eslint.format.enable": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "diffEditor.ignoreTrimWhitespace": true,
+  "eslint.validate": [
+    "vue",
+    "html",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "editor.tabSize": 2,
+  "yaml.schemas": {
+    "file:///Users/adheep/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "files.associations": {
+    "*.ejs": "html",
+    "*.js": "javascript",
+    "*vue": "vue",
+    "*.tsx": "typescriptreact",
+    "*.go": "go"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "editor.lineNumbers": "relative",
+  "debug.allowBreakpointsEverywhere": true,
+  "redhat.telemetry.enabled": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off",
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+  "editor.formatOnSave": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "dart.flutterHotReloadOnSave": "all",
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": true,
+  "editor.bracketPairColorization.enabled": true,
+  "dart.previewFlutterUiGuides": true,
+  "editor.lineHeight": 15,
+  "eslint.migration.2_x": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/tmp/**": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/bower_components": true,
+    "**/log/**": true,
+    "**/logs/**": true,
+    "**/.fdk/**": true,
+    "**/e2e-results/**": true,
+    "**/node_modules/**": true,
+    "**/node_modules": true,
+    "**/build/**": true,
+    "**/.next/**": true,
+    "**/coverage/**": true,
+    "**/dist/**": true,
+    "**/.cache/**": true,
+    "**/public/**": true
+  },
+  "files.exclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/tmp/**": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/bower_components": true,
+    "**/log/**": true,
+    "**/.fdk/**": true,
+    // "**/node_modules/**": true,
+    // "**/node_modules": true,
+    "**/.cache": true,
+    "**/build": true,
+    "**/.next": true,
+    "**/coverage": true
+  },
+  "search.exclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/log/**": true
+  },
+  "editor.minimap.enabled": false,
+  "git.mergeEditor": true,
+  "editor.linkedEditing": true,
+  "emojisense.languages": {
+    "markdown": true,
+    "plaintext": false,
+    "json": true,
+    "scminput": true,
+    "TypeScript JSX": true
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": false
+  },
+  "explorer.autoRevealExclude": {
+    "**/bower_components": false,
+    "**/node_modules": false
+  },
+  "playwright.reuseBrowser": true,
+  "playwright.showTrace": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "typescript": true
+  },
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "gitlens.views.stashes.files.layout": "list",
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "foreground": "orange",
+      "icon": "check",
+      "type": "line"
+    },
+    "DOUBT": {
+      "background": "white",
+      "foreground": "blue",
+      "iconColour": "blue",
+      "gutterIcon": true
+    }
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "DOUBT",
+    "TODO:API"
+  ],
+  "git.autofetch": true,
+  "githubPullRequests.pullBranch": "never",
+  "cursor.cpp.disabledLanguages": [
+    "plaintext",
+    "markdown",
+    "scminput",
+    "javascript"
+  ],
+  // Add these new performance settings
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.enablePreview": false,
+  "editor.scrollBeyondLastLine": false,
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
+  "editor.smoothScrolling": false,
+  "workbench.list.smoothScrolling": false,
+  "workbench.reduceMotion": "on",
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.cursorBlinking": "solid",
+  "search.followSymlinks": false,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "workbench.activityBar.location": "top",
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": true,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": false,
+    "searchAndCompare": true,
+    "launchpad": false
+  },
+  "terminal.integrated.env.osx": {}
+}
